@@ -1,18 +1,34 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div class="home">
+        <button @click='onClick'>만들다 보니 여기까지</button>
+        <p v-if="show">HEELO</p>
+    </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
+    name: 'home',
+    components: {
+    },
+    data(){
+        return {
+            show: false
+        }
+    },
+    methods:{
+        onClick(){
+            this.show = true;
+        }
+    }
 }
 </script>
+<style lang="scss" scoped>
+    .home{
+        background-color: #fff;
+        min-height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+</style>
+

@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0px;
+    font-family: D2Coding, 'D2 coding', monosapce;
+    font-size: 14px;
+}
+button{
+    font-family: D2Coding, 'D2 coding', monosapce;
+    border: 0;
+    font-size: 14px;
+}
+p{
+    font-family: D2Coding, 'D2 coding', monosapce;
+    font-size: 14px;
+}
+
+@font-face { 
+    font-family: 'DOSMyungjo'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+$font_path: '~@/assets/';
+
+@font-face {
+    font-family: 'Perfograma';
+    src: url($font_path + 'Perfograma-Regular.otf');
+}
+
+
+@font-face { font-family: 'HogookStd'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HogookStd.woff') format('woff'); font-weight: normal; font-style: normal; }

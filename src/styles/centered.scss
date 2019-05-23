@@ -1,0 +1,15 @@
+@mixin centered {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin centered-h {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin centered-w {
+    left: 50%;
+    transform: translateX(-50%);
+}
