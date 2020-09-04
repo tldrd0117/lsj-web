@@ -14,7 +14,7 @@
     "babel-plugin-prismjs": "^1.0.2",
     "highlight.js": "^9.14.2",
     "identicon.js": "^2.3.3",
-    "marked": "^0.6.0",
+    "marked": "^1.1.1",
     "md5": "^2.2.1",
     "microlight": "^0.0.7",
     "moment": "^2.24.0",
